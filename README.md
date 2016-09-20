@@ -12,3 +12,4 @@ aprender junto é muito mais fácil.
 - https://tour.golang.org/welcome/1
 - https://go-tour-br.appspot.com/welcome/1
 - http://dojopuzzles.com
+- https://github.com/GoesToEleven/GolangTraining
