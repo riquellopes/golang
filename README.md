@@ -13,3 +13,4 @@ aprender junto é muito mais fácil.
 - https://go-tour-br.appspot.com/welcome/1
 - http://dojopuzzles.com
 - https://github.com/GoesToEleven/GolangTraining
+- https://github.com/avelino/awesome-go
