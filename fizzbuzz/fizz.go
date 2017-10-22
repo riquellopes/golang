@@ -2,25 +2,17 @@ package fizzbuzz
 
 import "strconv"
 
-// Fizz -
-func Fizz(numeric int) string {
-    if numeric % 3 == 0 {
-        return "fizz"
-    }
-    return ""
-}
-
-// Buzz -
-func Buzz(numeric int) string {
-    if numeric % 5 == 0 {
-        return "buzz"
+// Calculate -
+func Calculate(numeric, divisor int, text string) string {
+    if numeric > 0 && numeric % divisor == 0 {
+        return text
     }
     return ""
 }
 
 // FizzBuzz - Just improving my golang skill
 func FizzBuzz(numeric int) string {
-    FizzBuzz := Fizz(numeric) + Buzz(numeric)
+    FizzBuzz := Calculate(numeric, 3, "fizz") + Calculate(numeric, 5, "buzz")
 
     if len(FizzBuzz) > 0 {
         return FizzBuzz

@@ -5,6 +5,10 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
+func TestFizzBuzz_0(t *testing.T) {
+    fizzbuzz := FizzBuzz(0)
+    assert.Equal(t, fizzbuzz, "0")
+}
 
 func TestFizzBuzz_1(t *testing.T) {
     fizzbuzz := FizzBuzz(1)
