@@ -3,23 +3,28 @@ package fizzbuzz
 import "strconv"
 
 // Fizz -
-func Fizz(numeric int) bool{
-    return numeric % 3 == 0
+func Fizz(numeric int) string {
+    if numeric % 3 == 0 {
+        return "fizz"
+    }
+    return ""
 }
 
 // Buzz -
-func Buzz(numeric int) bool {
-    return numeric % 5 == 0
+func Buzz(numeric int) string {
+    if numeric % 5 == 0 {
+        return "buzz"
+    }
+    return ""
 }
 
 // FizzBuzz - Just improving my golang skill
 func FizzBuzz(numeric int) string {
-    if Fizz(numeric) && Buzz(numeric) {
-        return "fizzbuzz"
-    } else if Fizz(numeric) {
-        return "fizz"
-    } else if Buzz(numeric) {
-        return "buzz"
+    FizzBuzz := Fizz(numeric) + Buzz(numeric)
+
+    if len(FizzBuzz) > 0 {
+        return FizzBuzz
     }
+
     return strconv.Itoa(numeric)
 }
