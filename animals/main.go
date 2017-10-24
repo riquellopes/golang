@@ -4,20 +4,24 @@ import (
     "fmt"
 )
 
+// Animal --
 type Animal struct {
     Name string
     mean bool
 }
 
+// AnimalSounder --
 type AnimalSounder interface {
     MakeNoise()
 }
 
+// Dog --
 type Dog struct {
     Animal
     BarkStrength int
 }
 
+// Cat --
 type Cat struct {
     Basics Animal
     MeowStrength int
@@ -44,7 +48,7 @@ func main(){
     MakeSomeNoise(myCat)
 }
 
-// Method
+// PerformNoise --
 func (animal *Animal) PerformNoise(strength int, sound string){
     if animal.mean == true {
         strength = strength * 5
@@ -57,16 +61,16 @@ func (animal *Animal) PerformNoise(strength int, sound string){
     fmt.Println()
 }
 
-// Method
+// MakeNoise -
 func (dog *Dog) MakeNoise(){
     dog.PerformNoise(dog.BarkStrength, "BARK")
 }
 
-// Method
+// MakeNoise --
 func (cat *Cat) MakeNoise(){
     cat.Basics.PerformNoise(cat.MeowStrength, "MEOW")
 }
-
+// MakeSomeNoise --
 func MakeSomeNoise(animalSounder AnimalSounder){
     animalSounder.MakeNoise()
 }
