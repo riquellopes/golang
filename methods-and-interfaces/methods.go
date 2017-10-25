@@ -6,10 +6,12 @@ import (
     "math"
 )
 
+// Vertex -
 type Vertex struct {
     X, Y float64
 }
 
+// Abs -
 func (v *Vertex) Abs() float64{
     return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
