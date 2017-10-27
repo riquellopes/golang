@@ -2,8 +2,8 @@ package main
 
 import (
     "log"
-    "os"
-    "strconv"
+    // "os"
+    "flag"
 )
 
 // Arithmetic -
@@ -33,15 +33,11 @@ func (a *Arithmetic) Product() int {
 }
 
 func main() {
-    x, err := strconv.Atoi(os.Args[1])
-    y, err := strconv.Atoi(os.Args[2])
+    x := flag.Int("x", 0, "Should be a integer.")
+    y := flag.Int("y", 0, "Should be a integer.")
 
-    if err != nil {
-      log.Println(err)
-      os.Exit(2)
-    }
+    flag.Parse()
 
-    ari := Arithmetic{x, y}
-
+    ari := Arithmetic{*x, *y}
     log.Println(ari.ToCalc())
 }
