@@ -4,10 +4,27 @@ import "log"
 
 // CountSubstring -
 func CountSubstring(s, sub string) int {
-	return 1
+	occurrences := 0
+
+	for i := range s {
+		length := len(sub) + i
+
+		cut := s[i:length]
+
+		if cut == sub {
+			occurrences++
+		}
+
+		if length == len(s) {
+			break
+		}
+
+	}
+
+	return occurrences
 }
 
 func main() {
-	log.Println("Hello")
+	log.Println(CountSubstring("ABCDCDC", "CDC"))
 
 }
