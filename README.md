@@ -16,3 +16,4 @@ aprender junto é muito mais fácil.
 - https://github.com/avelino/awesome-go
 - https://gobyexample.com/
 - https://www.goinggo.net/2013/10/manage-dependencies-with-godep.html
+- https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/
