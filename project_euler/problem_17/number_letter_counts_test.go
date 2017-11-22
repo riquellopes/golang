@@ -7,7 +7,7 @@ import (
 )
 
 func TestOneToFive(t *testing.T) {
-	letters_used := LettersUsed{1, 5}
+	lettersUsed := LettersUsed{1, 5}
 
-	assert.Equal(t, letters_used.Total(), 19)
+	assert.Equal(t, lettersUsed.Total(), 19)
 }
