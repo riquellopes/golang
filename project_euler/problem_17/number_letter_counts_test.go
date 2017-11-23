@@ -11,3 +11,9 @@ func TestOneToFive(t *testing.T) {
 
 	assert.Equal(t, lettersUsed.Total(), 19)
 }
+
+func TestOneToTwo(t *testing.T) {
+	lettersUsed := LettersUsed{1, 2}
+
+	assert.Equal(t, lettersUsed.Total(), 6)
+}
