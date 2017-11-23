@@ -15,13 +15,13 @@ func (l *LettersUsed) Total() int {
 	numberStr := ""
 
 	for i := l.S; i <= l.E; i++ {
-		numberStr += l.IntToLetter(i)
+		numberStr += l.IntToWords(i)
 	}
 
 	return len(numberStr)
 }
 
-// IntToLetter -
-func (l *LettersUsed) IntToLetter(number int) string {
+// IntToWords -
+func (l *LettersUsed) IntToWords(number int) string {
 	return num2words.Convert(number)
 }
