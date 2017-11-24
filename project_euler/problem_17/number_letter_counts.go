@@ -1,6 +1,9 @@
 package problem17
 
 import (
+	"log"
+	"regexp"
+
 	"github.com/divan/num2words"
 )
 
@@ -23,5 +26,12 @@ func (l *LettersUsed) Total() int {
 
 // IntToWords -
 func (l *LettersUsed) IntToWords(number int) string {
-	return num2words.Convert(number)
+	words := num2words.Convert(number)
+	reg, err := regexp.Compile("[^a-zA-Z]+")
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return reg.ReplaceAllString(words, "")
 }

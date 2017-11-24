@@ -17,3 +17,15 @@ func TestOneToTwo(t *testing.T) {
 
 	assert.Equal(t, lettersUsed.Total(), 6)
 }
+
+func TestShouldGetOnlyWords(t *testing.T) {
+	lettersUsed := LettersUsed{1, 2}
+
+	assert.Equal(t, lettersUsed.IntToWords(342), "threehundredfortytwo")
+}
+
+func TestOneToOneThousand(t *testing.T) {
+	lettersUsed := LettersUsed{1, 1000}
+
+	assert.Equal(t, lettersUsed.Total(), 18451)
+}
