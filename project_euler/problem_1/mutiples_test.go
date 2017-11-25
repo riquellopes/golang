@@ -9,3 +9,7 @@ import (
 func TestShouldGet23(t *testing.T) {
 	assert.Equal(t, Multiple(3, 5, 10), 23)
 }
+
+func TestShouldGet14(t *testing.T) {
+	assert.Equal(t, Multiple(3, 5, 9), 14)
+}
