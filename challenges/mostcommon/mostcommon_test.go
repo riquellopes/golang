@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestGet123forBac(t *testing.T) {
+func TestGet322forBac(t *testing.T) {
 	m := MostCommon("aabbbccde")
 
 	assert.Equal(t, m["b"], 3)
