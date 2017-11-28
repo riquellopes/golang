@@ -13,3 +13,9 @@ func TestGet322forBac(t *testing.T) {
 	assert.Equal(t, m["a"], 2)
 	assert.Equal(t, m["c"], 2)
 }
+
+func TestGet4forA(t *testing.T) {
+	m := MostCommon("aaaa")
+
+	assert.Equal(t, m["a"], 4)
+}
