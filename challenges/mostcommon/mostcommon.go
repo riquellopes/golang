@@ -2,7 +2,6 @@ package mostcommon
 
 // MostCommon -
 func MostCommon(str string) map[string]int {
-	// m := map[string]int{}
 	m := make(map[string]int)
 
 	for _, char := range str {
