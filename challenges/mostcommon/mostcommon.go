@@ -1,20 +1,17 @@
 package mostcommon
 
-import "fmt"
-
 // MostCommon -
 func MostCommon(str string) map[string]int {
-	m := map[string]int{}
-	// m := make(map[string]int)
+	// m := map[string]int{}
+	m := make(map[string]int)
 
-	for key, _ := range str {
-		if _, ok := m[""]; ok {
-			fmt.Printf("%s\n", key)
+	for _, char := range str {
+		if _, ok := m[string(char)]; ok {
+			m[string(char)]++
+		} else {
+			m[string(char)] = 1
 		}
 	}
 
-	m["b"] = 3
-	m["a"] = 2
-	m["c"] = 2
 	return m
 }
