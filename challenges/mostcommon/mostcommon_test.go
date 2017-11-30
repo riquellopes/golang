@@ -7,15 +7,17 @@ import (
 )
 
 func TestGet322forBac(t *testing.T) {
-	m := MostCommon("aabbbccde")
+	m := &Most{Char: "aabbbccde"}
+	m.Shake()
 
-	assert.Equal(t, m["b"], 3)
-	assert.Equal(t, m["a"], 2)
-	assert.Equal(t, m["c"], 2)
+	assert.Equal(t, m.Chocolate(), Common{"b", 3})
+	assert.Equal(t, m.Strawberry(), Common{"a", 2})
+	assert.Equal(t, m.Vanilla(), Common{"c", 2})
 }
 
 func TestGet4forA(t *testing.T) {
-	m := MostCommon("aaaa")
+	m := &Most{Char: "aaaa"}
+	m.Shake()
 
-	assert.Equal(t, m["a"], 4)
+	assert.Equal(t, m.Chocolate(), Common{"a", 4})
 }
