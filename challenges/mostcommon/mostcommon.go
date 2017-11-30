@@ -1,6 +1,7 @@
 package mostcommon
 
 import (
+	"errors"
 	"sort"
 )
 
@@ -38,16 +39,25 @@ func (m *Most) Shake() {
 }
 
 // Chocolate -
-func (m *Most) Chocolate() Common {
-	return m.ListCommon[0]
+func (m *Most) Chocolate() (Common, error) {
+	if len(m.ListCommon) == 0 {
+		return Common{"@", -1}, errors.New("sorry the chocolate wasnt shaked")
+	}
+	return m.ListCommon[0], nil
 }
 
 // Strawberry -
-func (m *Most) Strawberry() Common {
-	return m.ListCommon[1]
+func (m *Most) Strawberry() (Common, error) {
+	if len(m.ListCommon) == 1 {
+		return Common{"@", -1}, errors.New("sorry the strawberry wasnt shaked")
+	}
+	return m.ListCommon[1], nil
 }
 
 // Vanilla -
-func (m *Most) Vanilla() Common {
-	return m.ListCommon[2]
+func (m *Most) Vanilla() (Common, error) {
+	if len(m.ListCommon) < 2 {
+		return Common{"@", -1}, errors.New("sorry the vanilla wasnt shaked")
+	}
+	return m.ListCommon[2], nil
 }
