@@ -7,13 +7,13 @@ import (
 )
 
 func TestNumberthree(t *testing.T) {
-	sequencie := prints(3)
+	sequencie := Prints(3)
 
 	assert.Equal(t, sequencie, "123")
 }
 
 func TestNumberfive(t *testing.T) {
-	sequencie := prints(5)
+	sequencie := Prints(5)
 
 	assert.Equal(t, sequencie, "12345")
 }

@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	number "./number"
 )
 
 func main() {
-	fmt.Println("")
+	fmt.Println(number.Prints(5))
 }

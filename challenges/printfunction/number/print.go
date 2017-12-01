@@ -5,7 +5,8 @@ import (
 	"strings"
 )
 
-func prints(number int) string {
+// Prints -
+func Prints(number int) string {
 	list := make([]string, number)
 
 	for i := 0; i < number; i++ {
