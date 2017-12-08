@@ -17,3 +17,4 @@ aprender junto é muito mais fácil.
 - https://gobyexample.com/
 - https://www.goinggo.net/2013/10/manage-dependencies-with-godep.html
 - https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/
+- https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085
