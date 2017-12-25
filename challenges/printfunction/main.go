@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	number "./number"
+	number "github.com/riquellopes/golang/challenges/printfunction/number"
 )
 
 func main() {
