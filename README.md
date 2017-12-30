@@ -19,3 +19,4 @@ aprender junto é muito mais fácil.
 - https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/
 - https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085
 - https://www.surenderthakran.com/articles/tech/dockerized-development-and-production-environment-golang
+- https://github.com/markcheno/api-golang-jwt
