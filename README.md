@@ -21,3 +21,4 @@ aprender junto é muito mais fácil.
 - https://www.surenderthakran.com/articles/tech/dockerized-development-and-production-environment-golang
 - https://github.com/markcheno/api-golang-jwt
 - http://matthewbrown.io/2016/01/23/factory-pattern-in-golang/
+- https://golangcode.com/convert-io-readcloser-to-a-string/
