@@ -20,3 +20,4 @@ aprender junto é muito mais fácil.
 - https://blog.learngoprogramming.com/golang-variadic-funcs-how-to-patterns-369408f19085
 - https://www.surenderthakran.com/articles/tech/dockerized-development-and-production-environment-golang
 - https://github.com/markcheno/api-golang-jwt
+- http://matthewbrown.io/2016/01/23/factory-pattern-in-golang/
