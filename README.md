@@ -22,3 +22,4 @@ aprender junto é muito mais fácil.
 - https://github.com/markcheno/api-golang-jwt
 - http://matthewbrown.io/2016/01/23/factory-pattern-in-golang/
 - https://golangcode.com/convert-io-readcloser-to-a-string/
+- http://blog.questionable.services/article/testing-http-handlers-go/
