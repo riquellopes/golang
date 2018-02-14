@@ -23,3 +23,4 @@ aprender junto é muito mais fácil.
 - http://matthewbrown.io/2016/01/23/factory-pattern-in-golang/
 - https://golangcode.com/convert-io-readcloser-to-a-string/
 - http://blog.questionable.services/article/testing-http-handlers-go/
+- https://medium.com/@kelvin_sp/building-and-testing-a-rest-api-in-golang-using-gorilla-mux-and-mysql-1f0518818ff6
