@@ -24,3 +24,4 @@ aprender junto é muito mais fácil.
 - https://golangcode.com/convert-io-readcloser-to-a-string/
 - http://blog.questionable.services/article/testing-http-handlers-go/
 - https://medium.com/@kelvin_sp/building-and-testing-a-rest-api-in-golang-using-gorilla-mux-and-mysql-1f0518818ff6
+- https://blog.alexellis.io/golang-writing-unit-tests/
