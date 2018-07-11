@@ -26,3 +26,4 @@ aprender junto é muito mais fácil.
 - https://medium.com/@kelvin_sp/building-and-testing-a-rest-api-in-golang-using-gorilla-mux-and-mysql-1f0518818ff6
 - https://blog.alexellis.io/golang-writing-unit-tests/
 - https://golang.github.io/dep/
+- https://ednsquare.com/publisher/view/Streaming-IO-in-Go-------T5aR56pC68
