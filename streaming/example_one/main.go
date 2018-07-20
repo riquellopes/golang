@@ -17,6 +17,8 @@ func main() {
 			break
 		}
 
-		fmt.Println(string(p[:n]))
+		fmt.Print(string(p[:n]))
 	}
+
+	fmt.Println("")
 }
