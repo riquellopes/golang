@@ -27,3 +27,4 @@ aprender junto é muito mais fácil.
 - https://blog.alexellis.io/golang-writing-unit-tests/
 - https://golang.github.io/dep/
 - https://ednsquare.com/publisher/view/Streaming-IO-in-Go-------T5aR56pC68
+- https://medium.com/build-acl/a-practical-guide-to-getting-started-with-aws-lambda-functions-using-go-3813abea730a
