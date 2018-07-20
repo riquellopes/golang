@@ -39,7 +39,7 @@ func (a *alphaReader) Read(p []byte) (int, error) {
 
 // Bug
 func main() {
-	file, err := os.Open("./example_one.go")
+	file, err := os.Open("./../example_one/main.go")
 
 	if err != nil {
 		fmt.Println(err)
