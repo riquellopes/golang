@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// https://go.dev/tour/concurrency/9
 type SafeCounter struct {
 	mu sync.Mutex
 	v  map[string]int
