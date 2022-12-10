@@ -28,3 +28,6 @@ aprender junto é muito mais fácil.
 - https://golang.github.io/dep/
 - https://ednsquare.com/publisher/view/Streaming-IO-in-Go-------T5aR56pC68
 - https://medium.com/build-acl/a-practical-guide-to-getting-started-with-aws-lambda-functions-using-go-3813abea730a
+- https://acervolima.com/mutex-em-golang-com-exemplos/
+- https://gobyexample.com/mutexes
+- https://go.dev/tour/concurrency/9
