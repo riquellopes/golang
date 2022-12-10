@@ -31,3 +31,4 @@ aprender junto é muito mais fácil.
 - https://acervolima.com/mutex-em-golang-com-exemplos/
 - https://gobyexample.com/mutexes
 - https://go.dev/tour/concurrency/9
+- https://eminetto.medium.com/clean-architecture-using-golang-b63587aa5e3f
